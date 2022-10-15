@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useState } from 'react';
 import Navbar from '../components/Navbar'
+import Summary from '../components/Summary';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -15,6 +16,7 @@ export default function Home() {
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <Navbar />
+          <Summary />
         </section>
       </main>
 
