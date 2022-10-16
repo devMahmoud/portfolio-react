@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { useState } from 'react';
 import Navbar from '../components/Navbar'
 import Summary from '../components/Summary';
+import About from '../components/About';
+import Skills from '../components/Skills';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -15,9 +17,14 @@ export default function Home() {
 
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <Navbar />
+          <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
           <Summary />
         </section>
+        <section>
+          <Skills />
+          <About />
+        </section>
+        
       </main>
 
       

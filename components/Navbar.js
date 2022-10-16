@@ -1,6 +1,6 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
-const Navbar = () => (
+const Navbar = ({darkMode, setDarkMode}) => (
   <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl">Mahmoud Makhlouf</h1>
             <ul className="flex items-center">
@@ -21,5 +21,4 @@ const Navbar = () => (
             </ul>
   </nav>
 )
-
 export default Navbar;
