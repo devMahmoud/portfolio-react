@@ -4,9 +4,11 @@ import Navbar from '../components/Navbar'
 import Summary from '../components/Summary';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark": "" }>
       <Head>
@@ -20,13 +22,13 @@ export default function Home() {
           <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
           <Summary />
         </section>
+        <Projects />
         <section>
           <Skills />
           <About />
         </section>
-        
+        <Contact />
       </main>
-
       
     </div>
   )
