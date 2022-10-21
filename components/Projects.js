@@ -3,86 +3,103 @@ import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 
 const Projects = () => (
   <section className="py-10">
     <div>
-      <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+      <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
       <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-        Since the beginning of my journey as a freelance designer and
-        developer, I've done remote work for
-        <span className="text-teal-500"> agencies </span>
-        consulted for <span className="text-teal-500">startups </span>
-        and collaborated with talanted people to create digital products
-        for both business and consumer use.
-      </p>
-      <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-        I offer from a wide range of services, including brand design,
-        programming and teaching.
+      Checkout some of my recent projects
       </p>
     </div>
     <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
       <div className="basis-1/3 flex-1 ">
         <Image
-          className="rounded-lg object-cover"
+          className="rounded-lg object-contain"
           width={"100%"}
           height={"100%"}
           layout="responsive"
           src={web1}
           alt=""
         />
+        <div className="pt-8 text-center">
+          <a href="https://tourify-app.netlify.app/" target="blank">
+            <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+              Demo
+            </button>
+          </a>
+          <a href="https://github.com/devMahmoud/Booking-Tours-Front-End" target="blank">
+            <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+              Code
+            </button>
+          </a>
+        </div>
       </div>
       <div className="basis-1/3 flex-1">
         <Image
-          className="rounded-lg object-cover"
+          className="rounded-lg object-contain"
           width={"100%"}
           height={"100%"}
           layout="responsive"
           src={web2}
           alt=""
         />
+        <div className="pt-8 text-center">
+          <a href="https://mahmoud-math-magicians.herokuapp.com/" target="blank">
+                  <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+                    Demo
+                  </button>
+          </a>
+          <a href="https://github.com/devMahmoud/math-magicians" target="blank">
+            <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+              Code
+            </button>
+          </a>
+        </div>
       </div>
       <div className="basis-1/3 flex-1">
         <Image
-          className="rounded-lg object-cover"
+          className="rounded-lg object-contain"
           width={"100%"}
           height={"100%"}
           layout="responsive"
           src={web3}
           alt=""
         />
+        <div className="pt-8 text-center">
+          <a href="https://devmahmoud-chat-app.herokuapp.com/" target="blank">
+            <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+              Demo
+            </button>
+          </a>
+          <a href="https://github.com/devMahmoud/chat-app" target="blank">
+            <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+              Code
+            </button>
+          </a>
+        </div>
       </div>
       <div className="basis-1/3 flex-1">
         <Image
-          className="rounded-lg object-cover"
+          className="rounded-lg object-contain"
           width={"100%"}
           height={"100%"}
           layout="responsive"
           src={web4}
           alt=""
         />
-      </div>
-      <div className="basis-1/3 flex-1">
-        <Image
-          className="rounded-lg object-cover"
-          width={"100%"}
-          height={"100%"}
-          layout="responsive"
-          src={web5}
-          alt=""
-        />
-      </div>
-      <div className="basis-1/3 flex-1">
-        <Image
-          className="rounded-lg object-cover"
-          width={"100%"}
-          height={"100%"}
-          layout="responsive"
-          src={web6}
-          alt=""
-        />
+        <div className="pt-8 text-center">
+          <a href="https://rbanos-mv.github.io/space-travelers/#/missions" target="blank">
+            <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+              Demo
+            </button>
+          </a>
+          <a href="https://github.com/devMahmoud/space-travelers" target="blank">
+            <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
+              Code
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   </section>

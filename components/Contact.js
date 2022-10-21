@@ -9,6 +9,7 @@ const Contact = () => {
         so if you'd like to chat please get in touch.
       </h3>
       <form
+        action="https://getform.io/f/f566a66c-55ad-4229-91dd-c4ab33a4a354"
         method="POST"
         className="flex flex-col items-center justify-start max-w-[600px] w-full rounded-sm"
       >
