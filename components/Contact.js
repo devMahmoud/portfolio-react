@@ -5,8 +5,8 @@ const Contact = () => {
       className="py-10 flex items-center"
     >
       <h3 className="font-bold text-2xl leading-10 dark:text-white text-center font-serif">
-        I'm always interested in hearing about new projects, 
-        so if you'd like to chat please get in touch.
+        I&apos;m always interested in hearing about new projects, 
+        so if you&apos;d like to chat please get in touch.
       </h3>
       <form
         action="https://getform.io/f/f566a66c-55ad-4229-91dd-c4ab33a4a354"
