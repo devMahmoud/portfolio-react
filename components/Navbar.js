@@ -13,7 +13,7 @@ const Navbar = ({darkMode, setDarkMode}) => (
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1etOYTv9LkxE2fzVnn36z1bLBSqkINBUK/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1B1CQoTCArkX2MEJFmYvHDuC-Hvv2yfrL/view?usp=sharing"
                   target="blank"
                 >
                   Resume
