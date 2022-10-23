@@ -24,12 +24,12 @@ const Projects = () => (
         />
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> JavaScript, React, Ruby On Rails, Devise, PostgreSQL.</p>
         <div className="pt-8 text-center">
-          <a href="https://tourify-app.netlify.app/" target="blank">
+          <a id="tourify-demo" href="https://tourify-app.netlify.app/" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Demo
             </button>
           </a>
-          <a href="https://github.com/devMahmoud/Booking-Tours-Front-End" target="blank">
+          <a id="tourify-repo" href="https://github.com/devMahmoud/Booking-Tours-Front-End" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Code
             </button>
@@ -47,12 +47,12 @@ const Projects = () => (
         />
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, JavaScript, and React.</p>
         <div className="pt-8 text-center">
-          <a href="https://mahmoud-math-magicians.herokuapp.com/" target="blank">
+          <a id="math-demo" href="https://mahmoud-math-magicians.herokuapp.com/" target="blank">
                   <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
                     Demo
                   </button>
           </a>
-          <a href="https://github.com/devMahmoud/math-magicians" target="blank">
+          <a id="math-repo" href="https://github.com/devMahmoud/math-magicians" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Code
             </button>
@@ -70,12 +70,12 @@ const Projects = () => (
         />
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, JavaScript, Node.js, Express, and Socket.IO.</p>
         <div className="pt-8 text-center">
-          <a href="https://devmahmoud-chat-app.herokuapp.com/" target="blank">
+          <a id="chat-demo" href="https://devmahmoud-chat-app.herokuapp.com/" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Demo
             </button>
           </a>
-          <a href="https://github.com/devMahmoud/chat-app" target="blank">
+          <a id="chat-repo" href="https://github.com/devMahmoud/chat-app" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Code
             </button>
@@ -93,12 +93,12 @@ const Projects = () => (
         />
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, JavaScript, React, Redux.</p>
         <div className="pt-8 text-center">
-          <a href="https://rbanos-mv.github.io/space-travelers/#/missions" target="blank">
+          <a id="space-demo" href="https://rbanos-mv.github.io/space-travelers/#/missions" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Demo
             </button>
           </a>
-          <a href="https://github.com/devMahmoud/space-travelers" target="blank">
+          <a id="space-repo" href="https://github.com/devMahmoud/space-travelers" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Code
             </button>
