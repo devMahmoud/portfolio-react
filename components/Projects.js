@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
+import web2 from "../public/web2.jpg";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 
@@ -45,14 +45,14 @@ const Projects = () => (
           src={web2}
           alt=""
         />
-        <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, JavaScript, and React.</p>
+        <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, Ruby On Rails, Devise, PostgreSQL.</p>
         <div className="pt-8 text-center">
-          <a id="math-demo" href="https://mahmoud-math-magicians.herokuapp.com/" target="blank">
+          <a id="math-demo" href="https://dev-mahmoud-budgety.herokuapp.com/" target="blank">
                   <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
                     Demo
                   </button>
           </a>
-          <a id="math-repo" href="https://github.com/devMahmoud/math-magicians" target="blank">
+          <a id="math-repo" href="https://github.com/devMahmoud/budget-app" target="blank">
             <button className="text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-lg text-gray-700 font-bold px-4 py-3 mx-2">
               Code
             </button>
