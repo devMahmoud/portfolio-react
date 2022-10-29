@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="py-10 flex items-center"
+      className="py-10 flex flex-col md:flex-row items-center"
     >
       <h3 className="font-bold text-2xl leading-10 dark:text-white text-center font-serif">
         I&apos;m always interested in hearing about new projects, 
