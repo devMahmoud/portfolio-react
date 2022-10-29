@@ -14,7 +14,7 @@ const Navbar = ({darkMode, setDarkMode}) => (
                 <a
                   id="resume-link"
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1y3qX-tVDIzAEVkwXjFBX3dvWzutFJR72/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1K3kABRw1efyYB8kwhq6-K-yqWrSY-JZO/view?usp=sharing"
                   target="blank"
                 >
                   Resume
