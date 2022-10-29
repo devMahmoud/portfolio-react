@@ -22,6 +22,7 @@ const Projects = () => (
           src={web1}
           alt=""
         />
+        <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Description:</span> This is an app in which you can reserve, create, delete tours and show all your reserved tours.</p>
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> JavaScript, React, Ruby On Rails, Devise, PostgreSQL.</p>
         <div className="pt-8 text-center">
           <a id="tourify-demo" href="https://tourify-app.netlify.app/" target="blank">
@@ -45,6 +46,7 @@ const Projects = () => (
           src={web2}
           alt=""
         />
+        <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Description:</span> budget-app (Budgety) is a mobile web application where you can keep track of your expenses.</p>
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, Ruby On Rails, Devise, PostgreSQL.</p>
         <div className="pt-8 text-center">
           <a id="math-demo" href="https://dev-mahmoud-budgety.herokuapp.com/" target="blank">
@@ -68,6 +70,7 @@ const Projects = () => (
           src={web3}
           alt=""
         />
+        <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Description:</span> Real-time chat application. Enter your name and a room name and share it with your friends.</p>
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, JavaScript, Node.js, Express, and Socket.IO.</p>
         <div className="pt-8 text-center">
           <a id="chat-demo" href="https://devmahmoud-chat-app.herokuapp.com/" target="blank">
@@ -91,6 +94,7 @@ const Projects = () => (
           src={web4}
           alt=""
         />
+        <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Description:</span> This is a web application for a company that provides commercial and scientific space travel services.</p>
         <p className="text-gray-800 dark:text-gray-200"><span className="text-teal-500">Built With:</span> HTML, CSS, JavaScript, React, Redux.</p>
         <div className="pt-8 text-center">
           <a id="space-demo" href="https://rbanos-mv.github.io/space-travelers/#/missions" target="blank">
